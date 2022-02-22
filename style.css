@@ -1,0 +1,225 @@
+/* Body */
+.bodyc {
+  scroll-behavior: smooth;
+  /* background-color: cadetblue; */
+  background-color: rgb(255, 255, 255);
+  color: #fff;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.darkBodyc {
+  scroll-behavior: smooth;
+  background-color: black;
+  color: #fff;
+  min-height: 100vh;
+  width: 100%;
+}
+/* Body */
+/* header */
+.headerSticky {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+}
+/* header */
+
+/* ************* Logo Image Size ************* */
+.logoImageSize {
+  width: 80px;
+}
+.logoImageSize:hover {
+  transition: 3s;
+  transform: scale(5);
+  margin: 130px;
+  cursor: move;
+  z-index: 50;
+}
+/* ************* Logo Image Size ************* */
+
+/* ************* Center All ************* */
+.centerAll {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.centerAll2 {
+  justify-content: center;
+  text-align: center;
+}
+.centerAll3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.centerAll4 {
+  background-color: rgb(31, 29, 29);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+/*  */
+.fl_left,
+.fl_right {
+  justify-content: center;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0;
+  font-size: 15px;
+}
+p > a {
+  text-decoration: none;
+}
+/* ************* Center All ************* */
+
+/* Line M 1 */
+.lineM1 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(85, 85, 85, 0.5);
+}
+/* Line M 1 */
+
+/* ************ navbarSticky ********** */
+.navbarSticky1 {
+  text-align: center;
+  background-color: darkgreen;
+  color: #fff;
+  padding: 5px;
+}
+.navbarSticky2 {
+  align-items: center !important;
+  text-align: center;
+  background-color: darkgreen;
+  color: #fff;
+  padding: 5px;
+}
+/*  */
+.darkNavBarSticky2 {
+  background-color: darkblue !important;
+}
+
+/* ************ navbarSticky ********** */
+
+/* ********** Summary *********** */
+.dsum {
+  position: absolute;
+  background-color: chartreuse;
+  border-radius: 5px;
+}
+.dsumlist {
+  color: black !important;
+}
+.dsumlist:hover {
+  background-color: black !important;
+  color: #fff !important;
+  transition: 0.4s;
+}
+/* ********** Summary *********** */
+/* DuipasMode */
+.duipasMood {
+  display: none;
+}
+/* ****************************************** Main *********************************** */
+.cImage {
+  width: 350px;
+  margin: 5px auto;
+}
+/* ****************************************** Main *********************************** */
+
+/* ****************************************** BlogPost *********************************** */
+.homeBlog {
+  justify-content: center;
+  color: black;
+}
+abbr[title] {
+  border-bottom: none !important;
+  cursor: inherit !important;
+  text-decoration: none !important;
+}
+abbr a {
+  text-decoration: none;
+  color: gold;
+}
+abbr a:hover {
+  text-decoration: none;
+  color: gold;
+}
+.card {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  min-height: 280px;
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(0, 85, 0) !important;
+  box-shadow: black 0px 0px 10px;
+  cursor: alias;
+}
+.card:hover {
+  box-shadow: #fff 0px 0px 10px;
+  transition: 0.4s;
+}
+.card-footer,
+.card-body {
+  text-align: justify;
+}
+
+.blogImg {
+  width: 300px;
+  margin: 5px auto !important;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+}
+.blogPicture {
+  text-align: center;
+  padding: 0 !important;
+}
+.blogImg:hover {
+  transition: 0.4s;
+  transform: scale(1.2);
+}
+
+/* ****************************************** BlogPost *********************************** */
+
+/* ****************************************** Footer *********************************** */
+.footerHead,
+.footbox {
+  background-color: rgb(54, 56, 56);
+  text-align: center;
+}
+.footbox > ul {
+  list-style: none;
+  text-align: start;
+  margin: 0 auto;
+}
+ul > li > a {
+  text-decoration: none;
+}
+.flickr > ul > li {
+  display: inline-block;
+  margin: 2px;
+}
+.banners > ul > li {
+  display: inline-block;
+  margin: 2px;
+}
+
+/* ****************************************** Footer *********************************** */
+
+/* ***************  Media Sizing  ***************** */
+@media screen and (min-width: 540px) {
+  .navbarSticky1 {
+    display: none;
+  }
+  .navbarSticky2 {
+    display: block !important;
+  }
+
+  .duipasMood {
+    display: inline-block !important;
+  }
+}
+
+/* ***************  Media Sizing  ***************** */
